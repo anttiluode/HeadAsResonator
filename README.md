@@ -169,12 +169,6 @@ The pipeline here gives you a **practical, quantitative** way to measure and cor
 
 ---
 
-## Integration with Rajapinta EEG→Audio Studio
-
-After running Step 2, you can feed `recovered_meat_voice.wav` (or the cleaned residual from `subtract_voice_artifact.py`) directly into the Prime-Log / Inverse-Cochlea synthesizer. This gives you the honest version of the original project goal: turning **actual brain activity** (or at least the non-acoustic part) into sound, rather than just re-synthesizing the leaked voice with fancy prime-number resonators.
-
----
-
 ## Citation
 
 If you use this pipeline or the figures in a paper, please cite:
