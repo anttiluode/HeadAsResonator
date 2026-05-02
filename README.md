@@ -1,5 +1,9 @@
 # Head-as-Resonator: Measuring & Inverting Acoustic Coupling in EEG during Overt Speech
 
+EDIT: Added meat_voice_player2.py thatcan turn eegs with the npz to wav 
+without having to change the filenames \ channels like in eeg2speech.py  
+(You do need to make the NPZ linear transformation file to use it) 
+
 Video: https://www.youtube.com/watch?v=P5XqvRTLWxs
 
 **A practical pipeline to quantify mechanical voice pickup in EEG recordings and recover a cleaner "meat voice" signal via inverse filtering.**
