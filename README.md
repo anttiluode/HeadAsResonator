@@ -1,5 +1,7 @@
 # Head-as-Resonator: Measuring & Inverting Acoustic Coupling in EEG during Overt Speech
 
+Video: https://www.youtube.com/watch?v=P5XqvRTLWxs
+
 **A practical pipeline to quantify mechanical voice pickup in EEG recordings and recover a cleaner "meat voice" signal via inverse filtering.**
 
 This toolkit demonstrates — and helps correct — a well-known but often ignored artifact in speech neuroscience: **acoustic microphonic contamination** of electrophysiological recordings. When a person speaks, sound vibrations travel through the skull, tissue, electrodes, and cables, imprinting a near-perfect copy of the voice onto the EEG. This is **not** neural activity — it is mechanical coupling.
