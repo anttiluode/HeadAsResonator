@@ -124,6 +124,8 @@ In this dataset the peak coherence reached **0.954** — extremely high. The EEG
 python eeg2speech.py
 ```
 
+Note you have to change the edf file \ NPZ file from previous step to the end of the file. 
+
 The script (as provided) is currently configured for the exact files above. It:
 1. Loads `transfer_function.npz` (the `H_smooth` curve)
 2. Loads the same EDF channel
