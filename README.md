@@ -126,6 +126,8 @@ python eeg2speech.py
 
 Note you have to change the edf file \ NPZ file from previous step to the end of the file. 
 
+Also note if you do not use this dataset you have to ask from AI to change the channel to something that is in your EEG.
+
 The script (as provided) is currently configured for the exact files above. It:
 1. Loads `transfer_function.npz` (the `H_smooth` curve)
 2. Loads the same EDF channel
