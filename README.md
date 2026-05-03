@@ -6,7 +6,8 @@ without having to change the filenames \ channels like in eeg2speech.py
 
 EDIT: Added NPZ takens 3d analyzer. That shows us the resonator that the npz file 
 uses to filter sound out of eeg. Turns out in 3d it is a triangular manifold. Perhaps a model 
-of the larynx. 
+of the larynx. That depends on number of takens points though and the delay. At delay 
+15 ms and say 20 000 takens points you see the triangle. It could be equipment resonation too. 
 
 Video: https://www.youtube.com/watch?v=P5XqvRTLWxs
 
