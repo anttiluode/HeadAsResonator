@@ -4,6 +4,10 @@ EDIT: Added meat_voice_player2.py thatcan turn eegs with the npz to wav
 without having to change the filenames \ channels like in eeg2speech.py  
 (You do need to make the NPZ linear transformation file to use it) 
 
+EDIT: Added NPZ takens 3d analyzer. That shows us the resonator that the npz file 
+uses to filter sound out of eeg. Turns out in 3d it is a triangular manifold. Perhaps a model 
+of the larynx. 
+
 Video: https://www.youtube.com/watch?v=P5XqvRTLWxs
 
 **A practical pipeline to quantify mechanical voice pickup in EEG recordings and recover a cleaner "meat voice" signal via inverse filtering.**
